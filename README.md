@@ -9,29 +9,37 @@ PhD · Biology · University of New Brunswick &nbsp;·&nbsp; [ORCID](https://orc
 
 I spent my PhD and postdoctoral years solving hard measurement and modeling problems in ecology — working across invertebrate communities, tidal marshes, and grassland birds. The methods were rigorous, the datasets were messy, and the stakes were real: peer review, government reports, multi-institutional collaborations. That combination is what I'm bringing to industry.
 
-My work sits at the intersection of statistical modeling, spatial analysis, and cloud data infrastructure. I've built analyses from raw field collection through multivariate modeling and peer-reviewed publication, designed and deployed multi-table noSQL databases on AWS, integrated data across 10 partner organizations, and worked with large-scale citizen science datasets (eBird). I'm now building a portfolio demonstrating these skills in healthcare, finance, and insurance contexts.
+My work now spans **statistical modeling, machine learning, data engineering, LLM evaluation, and full‑stack web development**. I build end‑to‑end analytical workflows across healthcare, finance, insurance, public health, and product analytics, while continuing to maintain a strong foundation in ecological data science and spatial analysis.
+
+I’ve designed and deployed multi-table NoSQL databases on AWS, integrated data across 10 partner organizations, built large-scale observational models using citizen science data, and developed structured evaluation pipelines for LLM reliability under noisy, conflicting, and incomplete data. I’m also expanding into **full‑stack engineering** through modern JavaScript, React, Node.js, and cloud deployment, and preparing for **AWS Cloud Practitioner** and **AWS AI Practitioner** certifications.
+
+My portfolio reflects this interdisciplinary blend — rigorous statistical thinking, modern ML, cloud-native engineering, and practical software development — all grounded in real-world data complexity.
+
 
 ---
 
 ## Technical Skills
 
 **Languages**  
-R · Python · SQL · NoSQL · Git
+R · Python · SQL · NoSQL · JavaScript (ES6+) · HTML5 · CSS3 · Git
 
 **Cloud & AI Platforms**  
-AWS (Lambda, Aurora, S3, API Gateway, DynamoDB) · Azure Databricks · Snowflake · GCP / Vertex AI · Google Gemini · OpenAI API · Ollama · RAG pipelines
+AWS (Lambda, Aurora, S3, API Gateway, DynamoDB, CloudFront, IAM) · Azure Databricks · Snowflake · GCP / Vertex AI · Google Gemini · OpenAI API · Ollama · RAG pipelines
 
 **Statistical Modeling**  
 GLMMs · GAMs · PERMANOVAs · Distance-based Linear Modeling · Nonparametric Analyses · Multivariate Community Analysis · Mixed-Effects Linear Modeling · Multinomial Regression · PRIMER-e with PERMANOVA add-on
 
 **Data Engineering**  
-ETL pipelines · Workflow Automation · PostgreSQL · MySQL · NoSQL · DynamoDB · Aurora · Multi-Source Data Integration
+ETL pipelines · Workflow Automation · PostgreSQL · MySQL · NoSQL · DynamoDB · Aurora · dbt fundamentals · Multi-Source Data Integration · API design (REST) · Data modeling
+
+**Web Development**  
+HTML5 · CSS3 · Flexbox · Responsive Design · JavaScript (ES6+) · React (hooks, state, props, useEffect, Vite, Material UI) · Node.js · Express · AJAX · REST APIs · Authentication & Authorization · MongoDB · Mongoose · Bootstrap 5 · Semantic UI · Bulma · Full-stack application development
 
 **Spatial Analysis**  
 ArcGIS · QGIS · GRASS GIS · Google Earth · sf · terra · raster
 
 **Machine Learning & AI**  
-TensorFlow · Model Selection (AIC/AICc) · Parallel Computing
+scikit-learn · TensorFlow · Model Selection (AIC/AICc) · SHAP · Calibration · Parallel Computing
 
 **Visualization & BI**  
 Tableau · Power BI · ggplot2 · nMDS ordination · biplots · tmap
@@ -39,11 +47,12 @@ Tableau · Power BI · ggplot2 · nMDS ordination · biplots · tmap
 **R Ecosystem** *(selected)*  
 `tidyverse` · `ggplot2` · `lme4` · `glmmTMB` · `mgcv` · `gratia` · `vegan` · `DHARMa` · `performance` · `metafor` · `auk` · `ebirdst` · `sf` · `terra` · `targets` · `future`
 
-**Python Ecosystem**  
-`pandas` · `numpy` · `matplotlib` · `TensorFlow`
+**Python Ecosystem** *(selected)* 
+`pandas` · `numpy` · `matplotlib` · `scikit-learn` · `TensorFlow` · `FastAPI` · `SQLAlchemy`
 
 **IDEs & Tools**  
-RStudio · PyCharm · JupyterLab · VS Code · Anaconda · pgAdmin · Git
+VS Code · RStudio · PyCharm · JupyterLab · Anaconda · pgAdmin · Postman · Command Line · Git
+
 
 ---
 
@@ -80,21 +89,50 @@ RStudio · PyCharm · JupyterLab · VS Code · Anaconda · pgAdmin · Git
 
 ## Portfolio Projects
 
-*Building out — check back regularly. Projects will cover healthcare outcome prediction, insurance claims modeling, and finance risk analysis.*
+*Building out — check back regularly. Current projects span healthcare outcome prediction, insurance claims modeling, credit risk scoring, time‑series forecasting, and LLM reliability under noisy, multi‑source data.*
 
 | Project | Skills Demonstrated | Sector |
 |---|---|---|
-| *(coming soon)* | | |
+| Hospital Readmission Prediction | Logistic regression, scikit‑learn pipelines, SHAP, calibration | Healthcare |
+| Credit Default Modelling | LASSO/elastic net, class imbalance, threshold tuning | Finance |
+| Claims Frequency & Severity | Poisson/NB frequency, Gamma/Tweedie severity, pure premium modeling | Insurance |
+| Customer Churn Survival | Cox PH, AFT models, survival curves, risk scoring | Insurance |
+| Infectious Disease Surveillance | STL decomposition, SARIMA, counterfactual modeling | Public Health |
+| A/B Test Evaluation | Power analysis, Bayesian & frequentist evaluation, novelty effects | Product Analytics |
+| LLM Reliability Under Noisy Data | Conflicting sources, missing data, hallucination analysis | AI / ML |
+| Spatial Exposure & Health Outcomes | Spatial regression, confounder adjustment | Environmental Health |
+| Time‑Series Forecasting | ARIMA, ETS, Prophet, rolling‑origin CV | Finance |
+| User Retention Funnel Analysis | Cohort tables, funnel drop‑off, RFM segmentation | Product Analytics |
 
 ---
 
 ## Currently Learning
 
-- SQL window functions & query optimization
-- Docker & containerization
-- dbt (analytics engineering)
-- MLflow for experiment tracking
-- Apache Spark / PySpark
+- **Full‑stack web development** 
+  - HTML5, CSS3, Flexbox, responsive design  
+  - Modern JavaScript (ES6+), async/await, AJAX  
+  - React (JSX, props, state, hooks, useEffect, Vite, Material UI, design patterns)  
+  - Node.js, Express, REST APIs  
+  - SQL vs NoSQL, MongoDB, Mongoose  
+  - Authentication, sessions, security (SQL injection, XSS)  
+  - Cloud deployment, image upload, geocoding  
+  - Building full‑stack applications (including a large production‑scale YelpCamp clone)
+
+- **AWS Certifications**  
+  - AWS Cloud Practitioner (in progress)  
+  - AWS AI Practitioner (in progress)  
+  - Preparing for next‑level certifications (Solutions Architect Associate, Developer Associate, CloudOps Engineer)
+
+- **Front‑end & UI Foundations**  
+  - Bootstrap 5, Bulma, Semantic UI  
+  - DOM manipulation, browser events  
+  - Building responsive portfolio sites and landing pages
+
+- **Developer Tooling & Best Practices**  
+  - Command line, NPM, Postman  
+  - Version control workflows  
+  - Debugging, testing, and secure coding patterns
+
 
 ---
 
